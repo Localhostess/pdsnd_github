@@ -14,7 +14,7 @@ import time
 import pandas as pd
 import numpy as np
 """ Imports the necessary libraries and modules required
-for the analysis"""
+to perform the analysis"""
 
 CITIES_DATA = {'chicago': 'chicago.csv','new york city': 'new_york_city.csv', 'washington': 'washington.csv'}
 
@@ -25,7 +25,7 @@ DAYS = ['all','monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'
 
 def get_filters():
     """
-    Asks user to specify a city, month, and day to analyze.
+    This function asks the user to specify a city, month, and day to analyze.
     Returns:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
@@ -141,7 +141,7 @@ def trip_duration_stats(df):
     print('-'*40)
 
 def user_stats(df):
-    """Displays statistics on users."""
+    """Displays important user statistics."""
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
