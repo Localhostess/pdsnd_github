@@ -3,7 +3,7 @@ Project Creation Date: 4th November 2019
 README Creation Date: 10th November 2019
 
 ### Project Title
-US Bikeshare Analysis
+US Bikeshare Analysis.
 
 ### Description
 This script aims to explore data related to the US bike share systems for 3 US cities based on user input.
