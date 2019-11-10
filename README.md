@@ -3,7 +3,7 @@ Project Creation Date: 4th November 2019
 README Creation Date: 10th November 2019
 
 ### Project Title
-Replace the Project Title
+US Bikeshare Analysis
 
 ### Description
 This script aims to explore data related to the US bike share systems for 3 US cities based on user input.
@@ -29,4 +29,3 @@ Files used for the project include:
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
