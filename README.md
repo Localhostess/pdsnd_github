@@ -28,9 +28,6 @@ Files used for the project include:
 - washington.csv
 
 ### Credits
-<<<<<<< HEAD
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-=======
 Inputs with While Loops:
 https://realpython.com/python-while-loop/
 https://en.wikibooks.org/wiki/Python_Programming/Loops
