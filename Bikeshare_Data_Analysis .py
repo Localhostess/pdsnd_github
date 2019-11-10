@@ -14,7 +14,11 @@ import time
 import pandas as pd
 import numpy as np
 """ Imports the necessary libraries and modules required
+<<<<<<< HEAD
 to perform the analysis"""
+=======
+for the analysis"""
+>>>>>>> refactoring
 
 CITIES_DATA = {'chicago': 'chicago.csv','new york city': 'new_york_city.csv', 'washington': 'washington.csv'}
 
@@ -152,7 +156,7 @@ def user_stats(df):
         gender_count = df['Gender'].value_counts()
         print("The gender count:\n", gender_count)
     except:
-        print("This dataset does not contain a gender column.")
+        print("We're sorry but this dataset does not contain a gender column.")
 
     try:
         min_birth_year = df['Birth Year'].min()
@@ -162,7 +166,7 @@ def user_stats(df):
         print("The youngest users were born in:", int(max_birth_year))
         print("The most common birth year is:", int(most_common_birth_year))
     except:
-        print("This dataset does not contain a birth year column.")
+        print("We're sorry but this dataset does not contain a birth year column.")
 
         print("\nThis took %s seconds." % (time.time() - start_time))
         print('-'*40)
@@ -173,13 +177,13 @@ def display_data(df):
     while True:
         step = 0
         data = df
-        prompt = input("Would you like to see some raw data? Please enter yes or no\n")
+        prompt = input("Would you like to see 5 lines of raw data? Please enter yes or no\n")
         if prompt.lower() == 'yes' or prompt.lower() == 'y' or prompt.lower() == 'yeah':
             step = step + 5
             print(df.iloc[:step])
         else:
             break
-        prompt2 = input("Would you like to see some more raw data? Please enter yes or no\n")
+        prompt2 = input("Would you like to see another 5 lines of raw data? Please enter yes or no\n")
         if prompt2.lower() == 'yes' or prompt2.lower() == 'y' or prompt2.lower() == 'yeah':
             print(df.iloc[:step + 5])
             continue
