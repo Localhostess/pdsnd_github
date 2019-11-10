@@ -152,7 +152,7 @@ def user_stats(df):
         gender_count = df['Gender'].value_counts()
         print("The gender count:\n", gender_count)
     except:
-        print("This dataset does not contain a gender column.")
+        print("We're sorry but this dataset does not contain a gender column.")
 
     try:
         min_birth_year = df['Birth Year'].min()
@@ -162,7 +162,7 @@ def user_stats(df):
         print("The youngest users were born in:", int(max_birth_year))
         print("The most common birth year is:", int(most_common_birth_year))
     except:
-        print("This dataset does not contain a birth year column.")
+        print("We're sorry but this dataset does not contain a birth year column.")
 
         print("\nThis took %s seconds." % (time.time() - start_time))
         print('-'*40)
